@@ -196,4 +196,34 @@ public final class ModelFactory {
 
 		return facultyModel;
 	}
+	
+	public InitiativeModelInt getInitiativeModel() {
+		InitiativeModelInt initiativeModel = (InitiativeModelInt) modelCache.get("initiativeModel");
+		if (initiativeModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				initiativeModel = new InitiativeModelHibImp();
+			}
+			if ("JDBC".equals(DATABASE)) {
+				initiativeModel = new InitiativeModelHibImp();
+			}
+			modelCache.put("initiativeModel", initiativeModel);
+		}
+
+		return initiativeModel;
+	}
+	
+	public TransportationModelInt getTransportationModel() {
+		TransportationModelInt transportationModel = (TransportationModelInt) modelCache.get("transportationModel");
+		if (transportationModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				transportationModel = new TransportationModelHibImp();
+			}
+			if ("JDBC".equals(DATABASE)) {
+				transportationModel = new TransportationModelHibImp();
+			}
+			modelCache.put("transportationModel", transportationModel);
+		}
+
+		return transportationModel;
+	}
 }

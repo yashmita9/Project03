@@ -71,6 +71,18 @@ return 0;
 }
 }
 
+public static double getDouble(String val) {
+    if (val != null && val.trim().length() > 0) {
+        try {
+            return Double.parseDouble(val);
+        } catch (NumberFormatException e) {
+            return 0.0;
+        }
+    } else {
+        return 0.0;
+    }
+}
+
 /**
 *
 * Converts String InTo Long

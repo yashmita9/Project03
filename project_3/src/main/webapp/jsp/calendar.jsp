@@ -55,10 +55,10 @@
 			changeMonth : true,
 			changeYear : true,
 			//yearRange: "c-20:c+0",
-			//yearRange : "1980:2025",
-		maxDate:'31/12/2003',
-		// minDate:0
-		yearRange : "-40:-18"
+			yearRange : "2024:2026",
+		//maxDate:'31/12/2026',
+//	minDate:'01/01/2025'
+		//yearRange : "-40:-18"
 		});
 	});
 	  </script>

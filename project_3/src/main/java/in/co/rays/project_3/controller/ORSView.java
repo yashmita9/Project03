@@ -47,6 +47,12 @@ public interface ORSView {
 	public String PRODUCT_LIST_VIEW = PAGE_FOLDER + "/ProductListView.jsp";
 	public String CUSTOMER_VIEW = PAGE_FOLDER + "/CustomerView.jsp";
 	public String CUSTOMER_LIST_VIEW = PAGE_FOLDER + "/CustomerListView.jsp";
+	public String INITIATIVE_VIEW = PAGE_FOLDER + "/InitiativeView.jsp";
+	public String INITIATIVE_LIST_VIEW = PAGE_FOLDER + "/InitiativeListView.jsp";
+	public String POSITION_VIEW = PAGE_FOLDER + "/PositionView.jsp";
+	public String POSITION_LIST_VIEW = PAGE_FOLDER + "/PositionListView.jsp";
+	public String TRANSPORTATION_VIEW = PAGE_FOLDER + "/TransportationView.jsp";
+	public String TRANSPORTATION_LIST_VIEW = PAGE_FOLDER + "/TransportationListView.jsp";
 
 
 	public String ERROR_CTL = APP_CONTEXT + "/ErrorCtl";
@@ -77,6 +83,12 @@ public interface ORSView {
 	public String PRODUCT_LIST_CTL = APP_CONTEXT + "/ctl/ProductListCtl";
 	public String CUSTOMER_CTL = APP_CONTEXT + "/ctl/CustomerCtl";
 	public String CUSTOMER_LIST_CTL = APP_CONTEXT + "/ctl/CustomerListCtl";
+	public String INITIATIVE_CTL = APP_CONTEXT + "/ctl/InitiativeCtl";
+	public String INITIATIVE_LIST_CTL = APP_CONTEXT + "/ctl/InitiativeListCtl";
+	public String POSITION_CTL = APP_CONTEXT + "/ctl/PositionCtl";
+	public String POSITION_LIST_CTL = APP_CONTEXT + "/ctl/PositionListCtl";
+	public String TRANSPORTATION_CTL = APP_CONTEXT + "/ctl/TransportationCtl";
+	public String TRANSPORTATION_LIST_CTL = APP_CONTEXT + "/ctl/TransportationListCtl";
 
 	public String GET_MARKSHEET_CTL = APP_CONTEXT + "/ctl/GetMarksheetCtl";
 	public String CHANGE_PASSWORD_CTL = APP_CONTEXT + "/ctl/ChangePasswordCtl";

@@ -28,7 +28,7 @@
 
 <style type="text/css">
 .aj {
-	background-image: linear-gradient(to bottom right, grey, black);
+	background-image: linear-gradient(to bottom right, grey, black, white);
 }
 </style>
 </head>
@@ -205,6 +205,32 @@
 							class="fa fa-sort-amount-down"></i>Subject List
 						</a>
 					</div></li>
+				<li class="nav-item dropdown" style="padding-left: 5px"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: white;">Customer</font>
+				</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="<%=ORSView.CUSTOMER_CTL%>"><i
+							class="fa fa-calculator"></i>Add Customer</a> <a class="dropdown-item"
+							href="<%=ORSView.CUSTOMER_LIST_CTL%>"> <i
+							class="fa fa-sort-amount-down"></i>Customer List
+						</a>
+					</div></li>
+
+<!-- 				<li class="nav-item dropdown" style="padding-left: 5px"><a -->
+<!-- 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown" -->
+<!-- 					role="button" data-toggle="dropdown" aria-haspopup="true" -->
+<!-- 					aria-expanded="false"> <font style="color: white;">Product -->
+<!-- 					</font></a> -->
+
+<!-- 					<div class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+
+<%-- 						<a class="dropdown-item" href="<%=ORSView.PRODUCT_CTL%>"><i --%>
+<!-- 							class="fa fa-file"></i>Add Product</a> <a class="dropdown-item" -->
+<%-- 							href="<%=ORSView.PRODUCT_LIST_CTL%>"><i class="fa fa-paste"></i>Product --%>
+<!-- 							List</a> -->
+<!-- 					</div></li> -->
 
 				<%
 					}
