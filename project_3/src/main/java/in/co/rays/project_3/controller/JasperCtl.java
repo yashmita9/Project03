@@ -45,7 +45,7 @@ public class JasperCtl extends BaseCtl {
 
 			/* Compilation of jrxml file */
 			JasperReport jasperReport = JasperCompileManager
-					.compileReport("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\temp\\raman.jrxml");
+					.compileReport("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\temp\\project3.jrxml");
 
 			HttpSession session = request.getSession(true);
 			UserDTO dto = (UserDTO) session.getAttribute("user");
